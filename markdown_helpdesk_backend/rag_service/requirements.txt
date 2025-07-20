@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+pyjwt
+langchain
+faiss-cpu
+chromadb

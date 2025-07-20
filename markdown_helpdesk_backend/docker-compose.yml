@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  backend:
+    build: ./rag_service
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./rag_service:/app
+    environment:
+      - PYTHONUNBUFFERED=1
